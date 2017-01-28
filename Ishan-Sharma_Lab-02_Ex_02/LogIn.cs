@@ -30,5 +30,10 @@ namespace Ishan_Sharma_Lab_02_Ex_02
         {
 
         }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -66,6 +66,7 @@
             this.lblUsername.Size = new System.Drawing.Size(126, 15);
             this.lblUsername.TabIndex = 2;
             this.lblUsername.Text = "                                       ";
+            this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // lblPassword
             // 
@@ -99,7 +100,7 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Password:";
             // 
-            // Form1
+            // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,7 +111,7 @@
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.userControl);
-            this.Name = "Form1";
+            this.Name = "LogIn";
             this.Text = "Testing User Control";
             this.ResumeLayout(false);
             this.PerformLayout();
