@@ -171,6 +171,7 @@
             this.lblSydney.TabIndex = 5;
             this.lblSydney.TabStop = true;
             this.lblSydney.Text = "Sydney";
+            this.lblSydney.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblSydney_LinkClicked);
             // 
             // lblLondon
             // 
@@ -181,6 +182,7 @@
             this.lblLondon.TabIndex = 4;
             this.lblLondon.TabStop = true;
             this.lblLondon.Text = "London";
+            this.lblLondon.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLondon_LinkClicked);
             // 
             // lblFrance
             // 
@@ -191,6 +193,7 @@
             this.lblFrance.TabIndex = 3;
             this.lblFrance.TabStop = true;
             this.lblFrance.Text = "France";
+            this.lblFrance.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblFrance_LinkClicked);
             // 
             // lblUSA
             // 
@@ -201,6 +204,7 @@
             this.lblUSA.TabIndex = 2;
             this.lblUSA.TabStop = true;
             this.lblUSA.Text = "United States Of America";
+            this.lblUSA.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblUSA_LinkClicked);
             // 
             // lblCanada
             // 
@@ -211,6 +215,7 @@
             this.lblCanada.TabIndex = 1;
             this.lblCanada.TabStop = true;
             this.lblCanada.Text = "Canada";
+            this.lblCanada.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblCanada_LinkClicked);
             // 
             // lblIndia
             // 
@@ -221,14 +226,15 @@
             this.lblIndia.TabIndex = 0;
             this.lblIndia.TabStop = true;
             this.lblIndia.Text = "India";
+            this.lblIndia.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblIndia_LinkClicked);
             // 
-            // Form1
+            // TabControls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(430, 363);
             this.Controls.Add(this.tabControl1);
-            this.Name = "Form1";
+            this.Name = "TabControls";
             this.RightToLeftLayout = true;
             this.Text = "Tab Controls";
             this.tabControl1.ResumeLayout(false);

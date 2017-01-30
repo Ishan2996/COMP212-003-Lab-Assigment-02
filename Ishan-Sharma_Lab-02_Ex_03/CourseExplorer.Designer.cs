@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("SETechnician");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("SET");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("SET-IG");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("HIT");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("CSNT");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("EET");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("BMET");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("ICET", new System.Windows.Forms.TreeNode[] {
-            treeNode19,
-            treeNode20,
-            treeNode21,
-            treeNode22,
-            treeNode23,
-            treeNode24,
-            treeNode25});
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("College", new System.Windows.Forms.TreeNode[] {
-            treeNode26});
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("SETechnician");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("SET");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("SET-IG");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("HIT");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("CSNT");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("EET");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("BMET");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("ICET", new System.Windows.Forms.TreeNode[] {
+            treeNode28,
+            treeNode29,
+            treeNode30,
+            treeNode31,
+            treeNode32,
+            treeNode33,
+            treeNode34});
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("College", new System.Windows.Forms.TreeNode[] {
+            treeNode35});
             this.courseTreeView = new System.Windows.Forms.TreeView();
             this.courseListView = new System.Windows.Forms.ListView();
             this.semesterColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -61,26 +61,26 @@
             this.courseTreeView.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.courseTreeView.Location = new System.Drawing.Point(12, 12);
             this.courseTreeView.Name = "courseTreeView";
-            treeNode19.Name = "seTechnicianChildNode";
-            treeNode19.Text = "SETechnician";
-            treeNode20.Name = "setChildNode";
-            treeNode20.Text = "SET";
-            treeNode21.Name = "setIgChildNode";
-            treeNode21.Text = "SET-IG";
-            treeNode22.Name = "hitChildNode";
-            treeNode22.Text = "HIT";
-            treeNode23.Name = "CSNTChildNode";
-            treeNode23.Text = "CSNT";
-            treeNode24.Name = "EETChildNode";
-            treeNode24.Text = "EET";
-            treeNode25.Name = "BMETChildNode";
-            treeNode25.Text = "BMET";
-            treeNode26.Name = "icetChildNode";
-            treeNode26.Text = "ICET";
-            treeNode27.Name = "collegeMaainNode";
-            treeNode27.Text = "College";
+            treeNode28.Name = "seTechnicianChildNode";
+            treeNode28.Text = "SETechnician";
+            treeNode29.Name = "setChildNode";
+            treeNode29.Text = "SET";
+            treeNode30.Name = "setIgChildNode";
+            treeNode30.Text = "SET-IG";
+            treeNode31.Name = "hitChildNode";
+            treeNode31.Text = "HIT";
+            treeNode32.Name = "CSNTChildNode";
+            treeNode32.Text = "CSNT";
+            treeNode33.Name = "EETChildNode";
+            treeNode33.Text = "EET";
+            treeNode34.Name = "BMETChildNode";
+            treeNode34.Text = "BMET";
+            treeNode35.Name = "icetChildNode";
+            treeNode35.Text = "ICET";
+            treeNode36.Name = "collegeMaainNode";
+            treeNode36.Text = "College";
             this.courseTreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode27});
+            treeNode36});
             this.courseTreeView.Size = new System.Drawing.Size(200, 220);
             this.courseTreeView.TabIndex = 1;
             this.courseTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.courseTreeView_AfterSelect);

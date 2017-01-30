@@ -44,6 +44,7 @@
             this.userControl.Size = new System.Drawing.Size(250, 131);
             this.userControl.TabIndex = 0;
             this.userControl.UserName = "";
+            this.userControl.Load += new System.EventHandler(this.userControl_Load);
             // 
             // btnLogin
             // 
@@ -113,6 +114,7 @@
             this.Controls.Add(this.userControl);
             this.Name = "LogIn";
             this.Text = "Testing User Control";
+            this.Load += new System.EventHandler(this.LogIn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

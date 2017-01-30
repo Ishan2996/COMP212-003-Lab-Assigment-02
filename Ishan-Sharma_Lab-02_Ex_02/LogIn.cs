@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace Ishan_Sharma_Lab_02_Ex_02
 {
+    //Exception Handling Done
+
     public partial class LogIn : Form
     {
         public LogIn()
@@ -19,10 +21,18 @@ namespace Ishan_Sharma_Lab_02_Ex_02
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            try
+            {
 
-            lblUsername.Text = userControl.UserName;
-            lblPassword.Text = userControl.Password;
+                lblUsername.Text = userControl.UserName;
+                lblPassword.Text = userControl.Password;
 
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error:" + ex.Message);
+            }
 
         }
 
@@ -32,6 +42,16 @@ namespace Ishan_Sharma_Lab_02_Ex_02
         }
 
         private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LogIn_Load(object sender, EventArgs e)
         {
 
         }
