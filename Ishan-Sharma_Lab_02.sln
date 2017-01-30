@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishan-Sharma_Lab-02_Ex_02", "Ishan-Sharma_Lab-02_Ex_02\Ishan-Sharma_Lab-02_Ex_02.csproj", "{3CDB341A-351F-4327-B230-3A169C663B6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishan-Sharma_Lab-02_Ex-01", "Ishan-Sharma_Lab-02_Ex-01\Ishan-Sharma_Lab-02_Ex-01.csproj", "{E0242C83-9256-4B75-BBC3-7424B03881C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishan-Sharma_Lab-02_Ex_03", "Ishan-Sharma_Lab-02_Ex_03\Ishan-Sharma_Lab-02_Ex_03.csproj", "{ABAACEDB-CF76-477B-A283-385962DD930C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3CDB341A-351F-4327-B230-3A169C663B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDB341A-351F-4327-B230-3A169C663B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDB341A-351F-4327-B230-3A169C663B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0242C83-9256-4B75-BBC3-7424B03881C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0242C83-9256-4B75-BBC3-7424B03881C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0242C83-9256-4B75-BBC3-7424B03881C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0242C83-9256-4B75-BBC3-7424B03881C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAACEDB-CF76-477B-A283-385962DD930C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAACEDB-CF76-477B-A283-385962DD930C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAACEDB-CF76-477B-A283-385962DD930C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAACEDB-CF76-477B-A283-385962DD930C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
