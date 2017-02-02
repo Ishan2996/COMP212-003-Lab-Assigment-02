@@ -21,42 +21,56 @@ namespace Ishan_Sharma_Lab_02_Ex_01
         {
             lblIndia.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://india.gov.in/");
+            System.Diagnostics.Process.Start(textBox1.Text);
         }
 
         private void lblCanada_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblCanada.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Canada");
+            System.Diagnostics.Process.Start("textBox2.Text");
         }
 
         private void lblUSA_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblUSA.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/United_States");
+            System.Diagnostics.Process.Start("textBox3.Text");
         }
 
         private void lblFrance_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblFrance.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/France");
+            System.Diagnostics.Process.Start("textBox4.Text");
         }
 
         private void lblLondon_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblLondon.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/London");
+            System.Diagnostics.Process.Start("textBox5.Text");
         }
 
         private void lblSydney_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblSydney.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Sydney");
+            System.Diagnostics.Process.Start("textBox6.Text");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LinkLabel[] linklabel = { lblIndia, lblCanada, lblUSA, lblFrance, lblLondon, lblSydney };
+            foreach (int checkIndex in checkedListBox.CheckedIndices)
+            {
+                linklabel[checkIndex].Visible = true;
+            }
+        }
+
+        private void checkedListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

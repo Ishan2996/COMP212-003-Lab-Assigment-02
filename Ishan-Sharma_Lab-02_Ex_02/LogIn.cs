@@ -20,20 +20,13 @@ namespace Ishan_Sharma_Lab_02_Ex_02
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
-        {
-            try
-            {
+        {         
+            
 
-                lblUsername.Text = userControl.UserName;
-                lblPassword.Text = userControl.Password;
+                lblUsername.Text = logIn1.UserName;
+                lblPassword.Text = logIn1.Password;
 
-            }
-
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error:" + ex.Message);
-            }
-
+        
         }
 
         private void label1_Click(object sender, EventArgs e)

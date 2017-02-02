@@ -8,32 +8,21 @@ namespace Ishan_Sharma_Lab_02_Ex_04
 {
     class Program
     {
+
         public static void Handler_MyClick()
         {
-            Console.WriteLine("Event Handled SuccessFully");
+            Console.WriteLine("Event handled successfully");
         }
         static void Main(string[] args)
         {
-            try
-            {
-                MyEvent test = new MyEvent();
-                test.myClick += new myEventHandlder(Handler_MyClick);
+            MyEvent evt = new MyEvent();
 
-
-                // Fire The Events
-                test.onMyClick();
-
-                //To delegate event after the Click
-                test.myClick -= new myEventHandlder(Handler_MyClick);
-                test.onMyClick();
-
-                Console.ReadLine();
-            }
-
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error:" + ex.Message);
-            }
+            evt.MyClick += new MyEventHandler(Handler_MyClick);
+            
+            evt.onMyClick(); //Excecutes the Event
+            evt.onMyClick();
+            evt.onMyClick();
         }
     }
+
 }

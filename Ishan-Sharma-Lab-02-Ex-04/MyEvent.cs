@@ -5,21 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Ishan_Sharma_Lab_02_Ex_04
-{    
-        public delegate void myEventHandlder();
-
+{
+    public delegate void MyEventHandler();
+    
     class MyEvent
+    {
+        public event MyEventHandler MyClick;
+
+        public void onMyClick()
         {
-        
-
-            public event myEventHandlder myClick; // Event Object
-
-
-            public void onMyClick()
-            {
-                if (myClick != null)
-                    myClick();
-
-            }
+            MyClick();
         }
     }
+}
+    

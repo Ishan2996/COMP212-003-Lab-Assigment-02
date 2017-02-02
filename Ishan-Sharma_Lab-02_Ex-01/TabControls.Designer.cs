@@ -45,6 +45,7 @@
             this.lblUSA = new System.Windows.Forms.LinkLabel();
             this.lblCanada = new System.Windows.Forms.LinkLabel();
             this.lblIndia = new System.Windows.Forms.LinkLabel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -64,6 +65,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.checkedListBox);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -77,16 +79,17 @@
             // 
             this.checkedListBox.FormattingEnabled = true;
             this.checkedListBox.Items.AddRange(new object[] {
-            "India",
-            "Canada",
-            "United States Of America",
-            "France",
-            "London",
-            "Sydney"});
+            "Label:1",
+            "Label:2",
+            "Label:3",
+            "Label:4",
+            "Label:5",
+            "Label:6"});
             this.checkedListBox.Location = new System.Drawing.Point(28, 21);
             this.checkedListBox.Name = "checkedListBox";
             this.checkedListBox.Size = new System.Drawing.Size(183, 139);
             this.checkedListBox.TabIndex = 0;
+            this.checkedListBox.SelectedIndexChanged += new System.EventHandler(this.checkedListBox_SelectedIndexChanged);
             // 
             // tabPage2
             // 
@@ -170,7 +173,8 @@
             this.lblSydney.Size = new System.Drawing.Size(42, 13);
             this.lblSydney.TabIndex = 5;
             this.lblSydney.TabStop = true;
-            this.lblSydney.Text = "Sydney";
+            this.lblSydney.Text = "Label:6";
+            this.lblSydney.Visible = false;
             this.lblSydney.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblSydney_LinkClicked);
             // 
             // lblLondon
@@ -178,10 +182,11 @@
             this.lblLondon.AutoSize = true;
             this.lblLondon.Location = new System.Drawing.Point(44, 153);
             this.lblLondon.Name = "lblLondon";
-            this.lblLondon.Size = new System.Drawing.Size(43, 13);
+            this.lblLondon.Size = new System.Drawing.Size(42, 13);
             this.lblLondon.TabIndex = 4;
             this.lblLondon.TabStop = true;
-            this.lblLondon.Text = "London";
+            this.lblLondon.Text = "Label:5";
+            this.lblLondon.Visible = false;
             this.lblLondon.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLondon_LinkClicked);
             // 
             // lblFrance
@@ -189,10 +194,11 @@
             this.lblFrance.AutoSize = true;
             this.lblFrance.Location = new System.Drawing.Point(44, 117);
             this.lblFrance.Name = "lblFrance";
-            this.lblFrance.Size = new System.Drawing.Size(40, 13);
+            this.lblFrance.Size = new System.Drawing.Size(42, 13);
             this.lblFrance.TabIndex = 3;
             this.lblFrance.TabStop = true;
-            this.lblFrance.Text = "France";
+            this.lblFrance.Text = "Label:4";
+            this.lblFrance.Visible = false;
             this.lblFrance.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblFrance_LinkClicked);
             // 
             // lblUSA
@@ -200,10 +206,11 @@
             this.lblUSA.AutoSize = true;
             this.lblUSA.Location = new System.Drawing.Point(44, 82);
             this.lblUSA.Name = "lblUSA";
-            this.lblUSA.Size = new System.Drawing.Size(126, 13);
+            this.lblUSA.Size = new System.Drawing.Size(42, 13);
             this.lblUSA.TabIndex = 2;
             this.lblUSA.TabStop = true;
-            this.lblUSA.Text = "United States Of America";
+            this.lblUSA.Text = "Label:3";
+            this.lblUSA.Visible = false;
             this.lblUSA.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblUSA_LinkClicked);
             // 
             // lblCanada
@@ -211,10 +218,11 @@
             this.lblCanada.AutoSize = true;
             this.lblCanada.Location = new System.Drawing.Point(44, 48);
             this.lblCanada.Name = "lblCanada";
-            this.lblCanada.Size = new System.Drawing.Size(44, 13);
+            this.lblCanada.Size = new System.Drawing.Size(42, 13);
             this.lblCanada.TabIndex = 1;
             this.lblCanada.TabStop = true;
-            this.lblCanada.Text = "Canada";
+            this.lblCanada.Text = "Label:2";
+            this.lblCanada.Visible = false;
             this.lblCanada.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblCanada_LinkClicked);
             // 
             // lblIndia
@@ -222,11 +230,22 @@
             this.lblIndia.AutoSize = true;
             this.lblIndia.Location = new System.Drawing.Point(44, 16);
             this.lblIndia.Name = "lblIndia";
-            this.lblIndia.Size = new System.Drawing.Size(30, 13);
+            this.lblIndia.Size = new System.Drawing.Size(42, 13);
             this.lblIndia.TabIndex = 0;
             this.lblIndia.TabStop = true;
-            this.lblIndia.Text = "India";
+            this.lblIndia.Text = "Label:1";
+            this.lblIndia.Visible = false;
             this.lblIndia.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblIndia_LinkClicked);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(85, 185);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Go";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // TabControls
             // 
@@ -266,6 +285,7 @@
         private System.Windows.Forms.LinkLabel lblUSA;
         private System.Windows.Forms.LinkLabel lblCanada;
         private System.Windows.Forms.LinkLabel lblIndia;
+        private System.Windows.Forms.Button button1;
     }
 }
 

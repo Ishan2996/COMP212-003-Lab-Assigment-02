@@ -51,7 +51,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem2.SubItems.Add("COMP213");
                     listViewItem2.SubItems.Add("COMP301");
                     listViewItem2.SubItems.Add("COMP225");
-                    listViewItem2.SubItems.Add("GNEDDEL");
+                    listViewItem2.SubItems.Add("GNED135");
                     listViewItem2.SubItems.Add("MATH175");
                     courseListView.Items.Add(listViewItem2);
                     //
@@ -69,7 +69,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem4.SubItems.Add("CNET329");
                     listViewItem4.SubItems.Add("COMP212");
                     listViewItem4.SubItems.Add("COMP311");
-                    listViewItem4.SubItems.Add("TechElec");
+                    listViewItem4.SubItems.Add("CNET307");
                     listViewItem4.SubItems.Add("MATH210");
                     courseListView.Items.Add(listViewItem4);
                 }
@@ -82,7 +82,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem.SubItems.Add("CNET330");
                     listViewItem.SubItems.Add("COMP213");
                     listViewItem.SubItems.Add("COMP312");
-                    listViewItem.SubItems.Add("TechElec");
+                    listViewItem.SubItems.Add("COMP122");
                     listViewItem.SubItems.Add("MATH213");
                     courseListView.Items.Add(listViewItem);
                     //
@@ -91,7 +91,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem2.SubItems.Add("CNET331");
                     listViewItem2.SubItems.Add("COMP214");
                     listViewItem2.SubItems.Add("COMP313");
-                    listViewItem2.SubItems.Add("TechElec");
+                    listViewItem2.SubItems.Add("COMP256");
                     listViewItem2.SubItems.Add("MATH214");
                     courseListView.Items.Add(listViewItem2);
                     //
@@ -100,7 +100,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem3.SubItems.Add("CNET331");
                     listViewItem3.SubItems.Add("COMP214");
                     listViewItem3.SubItems.Add("COMP313");
-                    listViewItem3.SubItems.Add("TechElec");
+                    listViewItem3.SubItems.Add("COMP219");
                     listViewItem3.SubItems.Add("MATH214");
                     courseListView.Items.Add(listViewItem3);
                     //
@@ -109,7 +109,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem4.SubItems.Add("CNET331");
                     listViewItem4.SubItems.Add("COMP214");
                     listViewItem4.SubItems.Add("COMP313");
-                    listViewItem4.SubItems.Add("TechElec");
+                    listViewItem4.SubItems.Add("COMP316");
                     listViewItem4.SubItems.Add("MATH214");
                     courseListView.Items.Add(listViewItem4);
                 }
@@ -123,7 +123,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem.SubItems.Add("CNET332");
                     listViewItem.SubItems.Add("COMP215");
                     listViewItem.SubItems.Add("COMP314");
-                    listViewItem.SubItems.Add("TechElec");
+                    listViewItem.SubItems.Add("COMP316");
                     listViewItem.SubItems.Add("MATH215");
                     courseListView.Items.Add(listViewItem);
                     //
@@ -141,7 +141,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem3.SubItems.Add("CNET332");
                     listViewItem3.SubItems.Add("COMP215");
                     listViewItem3.SubItems.Add("COMP314");
-                    listViewItem3.SubItems.Add("TechElec");
+                    listViewItem3.SubItems.Add("COMP316");
                     listViewItem3.SubItems.Add("MATH215");
                     courseListView.Items.Add(listViewItem3);
                     //
@@ -150,7 +150,7 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     listViewItem4.SubItems.Add("CNET334");
                     listViewItem4.SubItems.Add("COMP217");
                     listViewItem4.SubItems.Add("COMP316");
-                    listViewItem4.SubItems.Add("TechElec");
+                    listViewItem4.SubItems.Add("COMP316");
                     listViewItem4.SubItems.Add("MATH216");
                     courseListView.Items.Add(listViewItem4);
                 }
@@ -160,39 +160,39 @@ namespace Ishan_Sharma_Lab_02_Ex_03
                     courseListView.Items.Clear();
                     //
                     ListViewItem listViewItem = new ListViewItem("Semester-1");
-                    listViewItem.SubItems.Add("HIT129");
-                    listViewItem.SubItems.Add("HIT334");
-                    listViewItem.SubItems.Add("HIT217");
-                    listViewItem.SubItems.Add("HIT316");
-                    listViewItem.SubItems.Add("TechElec");
-                    listViewItem.SubItems.Add("HIT216");
+                    listViewItem.SubItems.Add("COMP129");
+                    listViewItem.SubItems.Add("COMP334");
+                    listViewItem.SubItems.Add("COMP217");
+                    listViewItem.SubItems.Add("COMP316");
+                    listViewItem.SubItems.Add("COMP253");
+                    listViewItem.SubItems.Add("COMP216");
                     courseListView.Items.Add(listViewItem);
                     //
                     ListViewItem listViewItem2 = new ListViewItem("Semester-2");
-                    listViewItem2.SubItems.Add("HIT130");
-                    listViewItem2.SubItems.Add("HIT335");
-                    listViewItem2.SubItems.Add("HIT218");
-                    listViewItem2.SubItems.Add("HIT317");
-                    listViewItem2.SubItems.Add("TechElec");
-                    listViewItem2.SubItems.Add("HIT217");
+                    listViewItem2.SubItems.Add("COMP130");
+                    listViewItem2.SubItems.Add("COMP335");
+                    listViewItem2.SubItems.Add("COMP218");
+                    listViewItem2.SubItems.Add("COMP317");
+                    listViewItem2.SubItems.Add("GNED139");
+                    listViewItem2.SubItems.Add("COMP217");
                     courseListView.Items.Add(listViewItem2);
                     //
                     ListViewItem listViewItem3 = new ListViewItem("Semester-3");
-                    listViewItem3.SubItems.Add("HIT131");
-                    listViewItem3.SubItems.Add("HIT336");
-                    listViewItem3.SubItems.Add("HIT219");
-                    listViewItem3.SubItems.Add("HIT318");
-                    listViewItem3.SubItems.Add("TechElec");
-                    listViewItem3.SubItems.Add("HIT218");
+                    listViewItem3.SubItems.Add("COMP131");
+                    listViewItem3.SubItems.Add("COMP336");
+                    listViewItem3.SubItems.Add("COMP219");
+                    listViewItem3.SubItems.Add("COMP318");
+                    listViewItem3.SubItems.Add("COMP146");
+                    listViewItem3.SubItems.Add("COMP218");
                     courseListView.Items.Add(listViewItem3);
                     //
                     ListViewItem listViewItem4 = new ListViewItem("Semester-4");
-                    listViewItem4.SubItems.Add("HIT132");
-                    listViewItem4.SubItems.Add("HIT337");
-                    listViewItem4.SubItems.Add("HIT220");
-                    listViewItem4.SubItems.Add("HIT319");
-                    listViewItem4.SubItems.Add("TechElec");
-                    listViewItem4.SubItems.Add("HIT219");
+                    listViewItem4.SubItems.Add("COMP132");
+                    listViewItem4.SubItems.Add("COMP337");
+                    listViewItem4.SubItems.Add("COMP220");
+                    listViewItem4.SubItems.Add("COMP319");
+                    listViewItem4.SubItems.Add("EMPS-I");
+                    listViewItem4.SubItems.Add("GNED219");
                     courseListView.Items.Add(listViewItem4);
                 }
             }

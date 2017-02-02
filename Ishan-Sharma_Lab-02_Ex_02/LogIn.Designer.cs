@@ -34,6 +34,7 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.logIn1 = new LogInUserControl.LogIn();
             this.SuspendLayout();
             // 
             // userControl
@@ -59,7 +60,6 @@
             // 
             // lblUsername
             // 
-            this.lblUsername.AutoSize = true;
             this.lblUsername.BackColor = System.Drawing.SystemColors.Control;
             this.lblUsername.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblUsername.Location = new System.Drawing.Point(127, 185);
@@ -71,7 +71,6 @@
             // 
             // lblPassword
             // 
-            this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.SystemColors.Control;
             this.lblPassword.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblPassword.Location = new System.Drawing.Point(127, 212);
@@ -101,11 +100,21 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Password:";
             // 
+            // logIn1
+            // 
+            this.logIn1.Location = new System.Drawing.Point(0, 0);
+            this.logIn1.Name = "logIn1";
+            this.logIn1.Password = "";
+            this.logIn1.Size = new System.Drawing.Size(250, 131);
+            this.logIn1.TabIndex = 6;
+            this.logIn1.UserName = "";
+            // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.logIn1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblPassword);
@@ -128,6 +137,7 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private LogInUserControl.LogIn logIn1;
     }
 }
 
